@@ -33,3 +33,8 @@ WHERE Id = SOME(SELECT StudentId FROM GroupsStudents)
 SELECT *
 FROM Students AS S
 WHERE Id = ALL(SELECT StudentId FROM GroupsStudents)
+
+
+SELECT *
+FROM Students
+WHERE ID
